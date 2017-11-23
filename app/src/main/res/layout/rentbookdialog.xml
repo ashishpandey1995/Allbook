@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=">"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#ffa000"
+            android:id="@+id/textV1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="You can return book after use to same seller."
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:textSize="16dp"
+            android:textColor="#757575"
+            android:id="@+id/textV2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=">"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#ffa000"
+            android:id="@+id/textV5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Only 100Rs will be cut rest money will being returned."
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:textSize="16dp"
+            android:textColor="#757575"
+            android:id="@+id/textV6"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=">"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#ffa000"
+            android:id="@+id/textV7"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="You will have to show reciept of that book"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:textSize="16dp"
+            android:textColor="#757575"
+            android:id="@+id/textV8"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=">"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#ffa000"
+            android:id="@+id/textV9"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Book should not be damaged and written."
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:textSize="16dp"
+            android:textColor="#757575"
+            android:id="@+id/textV10"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=">"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#ffa000"
+            android:id="@+id/textV11"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="There won't be pickup for rent book. You will have to go to seller store."
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:textSize="16dp"
+            android:textColor="#757575"
+            android:id="@+id/textV12"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

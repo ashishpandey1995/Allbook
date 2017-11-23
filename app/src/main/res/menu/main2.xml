@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/notitem"
+        android:title="notif"
+        android:icon="@drawable/note"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/cartitem"
+        android:title="cart"
+        android:icon="@drawable/cartt"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/shipitem"
+        android:title="track"
+        android:icon="@drawable/track"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="always" >
+        <menu>
+
+    <item
+        android:id="@+id/prof1"
+        android:title="My Accounts"
+
+        android:icon="@drawable/prrrof"/>
+
+
+
+    <item
+        android:id="@+id/prof2"
+        android:icon="@drawable/bag"
+        android:title="My Orders"
+        />
+
+    <item
+        android:id="@+id/prof3"
+        android:title="My Sell"
+        android:icon="@drawable/pro"
+        />
+
+    <item
+        android:id="@+id/prof4"
+        android:title="Rate App"
+        android:icon="@android:drawable/ic_menu_edit"
+        />
+</menu>
+    </item>
+
+
+
+</menu>

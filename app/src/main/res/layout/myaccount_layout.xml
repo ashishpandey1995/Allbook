@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView23"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/prrrof"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="You can edit your profile details here and this will be default delivery details."
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="15dp"
+            android:textColor="#ffa000"
+            android:id="@+id/textView27"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#bdbdbd"
+        android:enabled="false"
+        android:id="@+id/button6"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:id="@+id/imagevie5"
+            android:background="@drawable/iconn"
+            />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imagevie1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/prrrof"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ashish Pandey."
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:textSize="18dp"
+                android:textColor="#757575"
+                android:id="@+id/textVie1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageVie2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/phone"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="phone"
+                android:text="8120054507"
+                android:textSize="18dp"
+                android:textColor="#757575"
+                android:ems="10"
+                android:id="@+id/editText11"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageVie3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:drawable/ic_dialog_email"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="textPersonName"
+                android:text="356,bh1,Indian Institute Of Information Technology Gwalior."
+                android:ems="10"
+                android:textSize="18dp"
+                android:textColor="#757575"
+                android:id="@+id/editText12"
+                android:layout_marginLeft="10dp"/>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ok"
+            android:id="@+id/buttonok"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

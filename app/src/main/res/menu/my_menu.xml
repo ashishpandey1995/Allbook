@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/first1"
+        android:title="Action and Adventure"
+        />
+
+    <item
+        android:id="@+id/first2"
+        android:title="Romance"
+        />
+    <item
+        android:id="@+id/first3"
+        android:title="Mystery and Horror"
+        />
+    <item
+        android:id="@+id/first4"
+        android:title="Health and Guide"
+        />
+    <item
+        android:id="@+id/first5"
+        android:title="Religion, Spirituality and New Age"
+        />
+    <item
+        android:id="@+id/first6"
+        android:title="History"
+        />
+    <item
+        android:id="@+id/first7"
+        android:title="Anthology"
+
+        />
+
+    <item
+        android:id="@+id/first8"
+        android:title="Trilogy"
+        />
+
+    <item
+        android:id="@+id/first9"
+        android:title="Science and Math"
+        />
+
+
+
+</menu>

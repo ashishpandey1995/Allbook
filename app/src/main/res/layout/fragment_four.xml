@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageV1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/notebook"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Used Accesseries"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:textColor="#ffa000"
+            android:id="@+id/textV1"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#bdbdbd"
+        android:enabled="false"
+        android:id="@+id/but"
+        />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+
+
+        <GridView
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridv1"
+
+            android:columnWidth="95dp"
+            android:numColumns="1"
+
+            android:verticalSpacing="25dp"
+            android:horizontalSpacing="15dp"
+
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal" />
+
+
+        <Button
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="#bdbdbd"
+            android:enabled="false"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/but1"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:orientation="horizontal">
+
+
+
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="180dp"
+                android:background="@drawable/booksex2"
+                android:id="@+id/imageView18"
+                android:layout_marginLeft="10dp" />
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="180dp"
+                android:background="@drawable/booksex1"
+                android:id="@+id/imageView19"
+                android:layout_marginLeft="20dp"
+                />
+
+
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="180dp"
+                android:background="@drawable/booksex2"
+                android:id="@+id/imageView25"
+                android:layout_marginLeft="20dp"
+                />
+
+                </LinearLayout>
+ </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Operation and research by taha"
+                    android:id="@+id/textView4"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_alignParentStart="true" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="500"
+                        android:textColor="#ffa000"
+                        android:id="@+id/textView8"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_below="@+id/textView4"
+                        android:layout_alignParentStart="true" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:id="@+id/imageView8"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/rs"
+                        android:layout_below="@+id/textView4"
+                        android:layout_toEndOf="@+id/textView8" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginTop="5dp"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="To buy contact him"
+
+                    android:id="@+id/textview"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_alignParentStart="true" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@drawable/prrrof"
+                        android:id="@+id/imageView10"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/textView8"
+                        android:layout_alignEnd="@+id/textView8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="Ashish Pandey"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#ff6f00"
+                        android:id="@+id/textView7"
+                        android:layout_below="@+id/linearLayout2"
+                        android:layout_alignParentStart="true" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:background="@android:drawable/ic_dialog_email"
+                        android:id="@+id/imagevv1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/textView8"
+                        android:layout_alignEnd="@+id/textView8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="356,bh-1 ABV-IIITM gwalior- 8120054507"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#ff6f00"
+                        android:id="@+id/textvv1"
+                        android:layout_below="@+id/linearLayout2"
+                        android:layout_alignParentStart="true" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/phone"
+                    android:id="@+id/imagevv2"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_below="@+id/textView8"
+                    android:layout_alignEnd="@+id/textView8" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Help us to improve our service"
+        android:background="#ff4081"
+        android:textSize="18dp"
+        android:textColor="#ffffff"
+        android:id="@+id/button5"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Are you satisfied with our Delivery facility?"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffa000"
+            android:textSize="16dp"
+            android:id="@+id/textView16" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/track"
+            android:id="@+id/imageView11" />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/feed"
+            android:id="@+id/imageButton3"
+             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1051"
+            android:id="@+id/textView10" />
+
+
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/feedb"
+            android:id="@+id/imageButton2"
+            android:layout_marginTop="10dp"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="253"
+            android:id="@+id/textView14"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Are you satisfied with our Product quality?"
+            android:textColor="#ffa000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="16dp"
+            android:id="@+id/textView22" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/pro"
+            android:id="@+id/imageView13" />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/feed"
+            android:id="@+id/imageButton4"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1051"
+            android:id="@+id/textView19" />
+
+
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/feedb"
+            android:id="@+id/imageButton5"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="253"
+            android:id="@+id/textView15"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Are you satisfied with our Help facility?"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffa000"
+            android:textSize="16dp"
+            android:id="@+id/textView24" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/hand"
+            android:id="@+id/imageView14" />
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/feed"
+            android:id="@+id/imageButton6"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="1051"
+            android:id="@+id/textView20" />
+
+
+
+        <ImageButton
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/feedb"
+            android:id="@+id/imageButton7"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="253"
+            android:id="@+id/textView21"
+            />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

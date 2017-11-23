@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_offer" android:icon="@drawable/gift"
+            android:title="OfferZone" />
+        <item android:id="@+id/nav_camara" android:icon="@android:drawable/ic_input_get"
+            android:title="NewBooks" />
+        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_edit"
+            android:title="Accessories" />
+        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="SellBooks" />
+        <item android:id="@+id/nav_used" android:icon="@drawable/notebook"
+            android:title="UsedAccessories" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@drawable/hand"
+                android:title="Help" />
+            <item android:id="@+id/nav_send" android:icon="@drawable/phone"
+                android:title="Contact" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageV1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/note"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Do you have any query?"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:textColor="#757575"
+            android:id="@+id/textV1"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffa000"
+        android:enabled="false"
+
+        android:id="@+id/but"
+        />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageV3"
+                android:layout_marginLeft="5dp"
+
+                android:background="@drawable/quest"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="How to sell product?"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="#757575"
+                android:id="@+id/textV3"
+                />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="0dp"
+                android:text=">>>"
+                android:onClick="click1"
+                android:layout_marginLeft="15dp"
+                android:background="#ffa000"
+                android:textColor="#ffffff"
+                android:id="@+id/but3"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageV4"
+                android:layout_marginLeft="5dp"
+
+                android:background="@drawable/quest"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="How to return product?"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="#757575"
+                android:id="@+id/textV4"
+                />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="0dp"
+                android:text=">>>"
+                android:onClick="click2"
+                android:layout_marginLeft="15dp"
+                android:textColor="#ffffff"
+                android:background="#ffa000"
+                android:id="@+id/but4"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageV5"
+                android:layout_marginLeft="5dp"
+
+                android:background="@drawable/quest"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="How to cancel product?"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="#757575"
+                android:id="@+id/textV5"
+                />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="0dp"
+                android:text=">>>"
+                android:layout_marginLeft="15dp"
+                android:onClick="click3"
+                android:textColor="#ffffff"
+                android:background="#ffa000"
+                android:id="@+id/but5"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageV6"
+                android:layout_marginLeft="5dp"
+
+                android:background="@drawable/quest"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Time to deliver the product?"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="#757575"
+                android:id="@+id/textV6"
+                />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="0dp"
+                android:text=">>>"
+                android:layout_marginLeft="15dp"
+                android:onClick="click4"
+                android:textColor="#ffffff"
+                android:background="#ffa000"
+                android:id="@+id/but6"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/imageV16"
+                android:layout_marginLeft="5dp"
+
+                android:background="@drawable/quest"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="What is books on rent?"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="#757575"
+                android:id="@+id/textV16"
+                />
+
+            <Button
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="0dp"
+                android:text=">>>"
+                android:layout_marginLeft="15dp"
+                android:onClick="click4"
+                android:textColor="#ffffff"
+                android:background="#ffa000"
+                android:id="@+id/but16"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffa000"
+            android:enabled="false"
+
+            android:id="@+id/bu1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageV10"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/cry"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Still your problem is not solved and have any query call or send message to costumer care."
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:textColor="#757575"
+            android:id="@+id/textV7"
+            />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id="@+id/imageV9"
+            android:background="@drawable/prrrof"
+            />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@android:drawable/ic_menu_call"
+                android:id="@+id/imageButton9" />
+
+            <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="80dp"
+                android:background="@android:drawable/ic_menu_send"
+                android:id="@+id/imageButton10"
+                />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

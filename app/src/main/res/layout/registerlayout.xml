@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:inputType="textPersonName"
+        android:textSize="18dp"
+        android:hint="username"
+        android:ems="10"
+        android:id="@+id/editText3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:inputType="textEmailAddress"
+        android:textSize="18dp"
+        android:hint="email"
+        android:ems="10"
+        android:id="@+id/editText4" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:inputType="phone"
+        android:textSize="18dp"
+        android:hint="phone"
+        android:ems="10"
+        android:id="@+id/editText5" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:inputType="textPassword"
+        android:textSize="18dp"
+        android:hint="password"
+        android:ems="10"
+        android:id="@+id/editText6" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="OK"
+        android:textColor="#ffffff"
+        android:background="#ff4081"
+        android:textSize="18dp"
+        android:id="@+id/button4"
+        android:onClick="enter2"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
